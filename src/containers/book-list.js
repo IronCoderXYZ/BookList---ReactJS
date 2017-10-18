@@ -12,7 +12,7 @@ class BookList extends Component {
 
   render() {
     return (
-      <ul className-'list-group col-sm-4'>
+      <ul className='list-group col-sm-4'>
         {this.renderList()}
       </ul>
     );
@@ -21,7 +21,7 @@ class BookList extends Component {
 
 function mapStateToProps(state) {
   return {
-
+    books: state.books
   };
 }
 
